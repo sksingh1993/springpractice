@@ -6,5 +6,5 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @Import(WelcomeConfig.class)
 public class Config {
-//    comment
+//    comments
 }
