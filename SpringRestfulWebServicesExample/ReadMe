@@ -1,0 +1,17 @@
+1. Create maven web project
+2. Inside src/main/webapp/WEB-INF/web.xml
+	create a servelate with any name ex: springrest1
+3  Create xml file with name  servlat name+servlet.xml :   ex springrest1-servlat.xml
+	inside this file you can define your bean or you can import some other bean configuration xml file
+	
+	
+	
+	Note: main spring configuration file should be servletName-servlet.xml
+	
+	In this example you can get annotation based configuration
+	
+	for annotation based configuration:
+		create a class, annotate with @Configuration, then define your all the beans inside this class
+		
+		Also you can import other bean configuration file in this main configuration file.
+		 
